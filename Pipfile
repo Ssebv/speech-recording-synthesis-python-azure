@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+google-cloud-texttospeech = "*"
+google-api-python-client = "*"
+google-auth-oauthlib = "*"
+pydub = "*"
+pyrubberband = "*"
+ffprobe-python = "*"
+azure-cognitiveservices-speech = "*"
+langcodes = "*"
+language-data = "*"
+"azure.cognitiveservices.speech" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
